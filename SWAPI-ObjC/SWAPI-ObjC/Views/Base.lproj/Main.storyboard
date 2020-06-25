@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CJHViewController" customModule="SWAPI_ObjC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="wsi-7A-E4N">
+                                <rect key="frame" x="0.0" y="389.5" width="414" height="127"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLj-Jx-uzx">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4HJ-qP-D9M">
+                                        <rect key="frame" x="0.0" y="77" width="414" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <searchBar contentMode="redraw" placeholder="Enter a number..." translatesAutoresizingMaskIntoConstraints="NO" id="fGR-FF-kWm">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="GH6-Bm-tIx"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wsi-7A-E4N" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="K1z-Ml-yWw"/>
+                            <constraint firstItem="fGR-FF-kWm" firstAttribute="leading" secondItem="wsi-7A-E4N" secondAttribute="leading" id="QQb-ef-BJp"/>
+                            <constraint firstItem="wsi-7A-E4N" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Qh1-gM-pWf"/>
+                            <constraint firstItem="fGR-FF-kWm" firstAttribute="trailing" secondItem="wsi-7A-E4N" secondAttribute="trailing" id="Svb-kH-Beg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wsi-7A-E4N" secondAttribute="trailing" id="czw-Tv-ro7"/>
+                            <constraint firstItem="wsi-7A-E4N" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="haU-Ic-R87"/>
+                            <constraint firstItem="fGR-FF-kWm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="wgl-UG-bnn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="heightLabel" destination="4HJ-qP-D9M" id="FdY-YC-J2M"/>
+                        <outlet property="nameLabel" destination="oLj-Jx-uzx" id="d4W-tS-zoH"/>
+                        <outlet property="personSearchBar" destination="fGR-FF-kWm" id="XyN-gN-l6i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133" y="110"/>
+        </scene>
+    </scenes>
+</document>

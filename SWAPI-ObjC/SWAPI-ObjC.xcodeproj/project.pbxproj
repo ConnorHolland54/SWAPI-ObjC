@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE517CF624A53D3400BDE4F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE517CF524A53D3400BDE4F1 /* AppDelegate.m */; };
+		DE517CF924A53D3400BDE4F1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE517CF824A53D3400BDE4F1 /* SceneDelegate.m */; };
+		DE517CFF24A53D3400BDE4F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE517CFD24A53D3400BDE4F1 /* Main.storyboard */; };
+		DE517D0124A53D3500BDE4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE517D0024A53D3500BDE4F1 /* Assets.xcassets */; };
+		DE517D0424A53D3500BDE4F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE517D0224A53D3500BDE4F1 /* LaunchScreen.storyboard */; };
+		DE517D0724A53D3500BDE4F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE517D0624A53D3500BDE4F1 /* main.m */; };
+		DE517D1524A53EC600BDE4F1 /* CJHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = DE517D1424A53EC600BDE4F1 /* CJHPerson.m */; };
+		DE517D1824A5436000BDE4F1 /* CJHPersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE517D1724A5436000BDE4F1 /* CJHPersonController.m */; };
+		DE517D1B24A5491400BDE4F1 /* CJHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE517D1A24A5491400BDE4F1 /* CJHViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE517CF124A53D3400BDE4F1 /* SWAPI-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SWAPI-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE517CF424A53D3400BDE4F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE517CF524A53D3400BDE4F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE517CF724A53D3400BDE4F1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DE517CF824A53D3400BDE4F1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DE517CFE24A53D3400BDE4F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE517D0024A53D3500BDE4F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE517D0324A53D3500BDE4F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE517D0524A53D3500BDE4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE517D0624A53D3500BDE4F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE517D1324A53EC600BDE4F1 /* CJHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJHPerson.h; sourceTree = "<group>"; };
+		DE517D1424A53EC600BDE4F1 /* CJHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJHPerson.m; sourceTree = "<group>"; };
+		DE517D1624A5436000BDE4F1 /* CJHPersonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJHPersonController.h; sourceTree = "<group>"; };
+		DE517D1724A5436000BDE4F1 /* CJHPersonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJHPersonController.m; sourceTree = "<group>"; };
+		DE517D1924A5491300BDE4F1 /* SWAPI-ObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SWAPI-ObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE517D1A24A5491400BDE4F1 /* CJHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJHViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE517CEE24A53D3400BDE4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE517CE824A53D3400BDE4F1 = {
+			isa = PBXGroup;
+			children = (
+				DE517CF324A53D3400BDE4F1 /* SWAPI-ObjC */,
+				DE517CF224A53D3400BDE4F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE517CF224A53D3400BDE4F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE517CF124A53D3400BDE4F1 /* SWAPI-ObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE517CF324A53D3400BDE4F1 /* SWAPI-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				DE517D1024A53D8500BDE4F1 /* Controllers */,
+				DE517D0F24A53D8000BDE4F1 /* Model */,
+				DE517D0E24A53D6F00BDE4F1 /* Views */,
+				DE517D0D24A53D4700BDE4F1 /* Resources */,
+			);
+			path = "SWAPI-ObjC";
+			sourceTree = "<group>";
+		};
+		DE517D0D24A53D4700BDE4F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE517CF424A53D3400BDE4F1 /* AppDelegate.h */,
+				DE517CF524A53D3400BDE4F1 /* AppDelegate.m */,
+				DE517CF724A53D3400BDE4F1 /* SceneDelegate.h */,
+				DE517CF824A53D3400BDE4F1 /* SceneDelegate.m */,
+				DE517D0024A53D3500BDE4F1 /* Assets.xcassets */,
+				DE517D0224A53D3500BDE4F1 /* LaunchScreen.storyboard */,
+				DE517D0524A53D3500BDE4F1 /* Info.plist */,
+				DE517D0624A53D3500BDE4F1 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DE517D0E24A53D6F00BDE4F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE517CFD24A53D3400BDE4F1 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE517D0F24A53D8000BDE4F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE517D1324A53EC600BDE4F1 /* CJHPerson.h */,
+				DE517D1424A53EC600BDE4F1 /* CJHPerson.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE517D1024A53D8500BDE4F1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE517D1224A53D9300BDE4F1 /* ViewControllers */,
+				DE517D1124A53D8A00BDE4F1 /* ModelControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DE517D1124A53D8A00BDE4F1 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE517D1624A5436000BDE4F1 /* CJHPersonController.h */,
+				DE517D1724A5436000BDE4F1 /* CJHPersonController.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		DE517D1224A53D9300BDE4F1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE517D1A24A5491400BDE4F1 /* CJHViewController.swift */,
+				DE517D1924A5491300BDE4F1 /* SWAPI-ObjC-Bridging-Header.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE517CF024A53D3400BDE4F1 /* SWAPI-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE517D0A24A53D3500BDE4F1 /* Build configuration list for PBXNativeTarget "SWAPI-ObjC" */;
+			buildPhases = (
+				DE517CED24A53D3400BDE4F1 /* Sources */,
+				DE517CEE24A53D3400BDE4F1 /* Frameworks */,
+				DE517CEF24A53D3400BDE4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SWAPI-ObjC";
+			productName = "SWAPI-ObjC";
+			productReference = DE517CF124A53D3400BDE4F1 /* SWAPI-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE517CE924A53D3400BDE4F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CJH;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Connor Holland";
+				TargetAttributes = {
+					DE517CF024A53D3400BDE4F1 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = DE517CEC24A53D3400BDE4F1 /* Build configuration list for PBXProject "SWAPI-ObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE517CE824A53D3400BDE4F1;
+			productRefGroup = DE517CF224A53D3400BDE4F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE517CF024A53D3400BDE4F1 /* SWAPI-ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE517CEF24A53D3400BDE4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE517D0424A53D3500BDE4F1 /* LaunchScreen.storyboard in Resources */,
+				DE517D0124A53D3500BDE4F1 /* Assets.xcassets in Resources */,
+				DE517CFF24A53D3400BDE4F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE517CED24A53D3400BDE4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE517CF624A53D3400BDE4F1 /* AppDelegate.m in Sources */,
+				DE517D0724A53D3500BDE4F1 /* main.m in Sources */,
+				DE517D1824A5436000BDE4F1 /* CJHPersonController.m in Sources */,
+				DE517D1524A53EC600BDE4F1 /* CJHPerson.m in Sources */,
+				DE517D1B24A5491400BDE4F1 /* CJHViewController.swift in Sources */,
+				DE517CF924A53D3400BDE4F1 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE517CFD24A53D3400BDE4F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE517CFE24A53D3400BDE4F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE517D0224A53D3500BDE4F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE517D0324A53D3500BDE4F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE517D0824A53D3500BDE4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE517D0924A53D3500BDE4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE517D0B24A53D3500BDE4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 265HY58XK9;
+				INFOPLIST_FILE = "SWAPI-ObjC/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.connorholland.SWAPI-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SWAPI-ObjC/Controllers/ViewControllers/SWAPI-ObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE517D0C24A53D3500BDE4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 265HY58XK9;
+				INFOPLIST_FILE = "SWAPI-ObjC/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.connorholland.SWAPI-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SWAPI-ObjC/Controllers/ViewControllers/SWAPI-ObjC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE517CEC24A53D3400BDE4F1 /* Build configuration list for PBXProject "SWAPI-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE517D0824A53D3500BDE4F1 /* Debug */,
+				DE517D0924A53D3500BDE4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE517D0A24A53D3500BDE4F1 /* Build configuration list for PBXNativeTarget "SWAPI-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE517D0B24A53D3500BDE4F1 /* Debug */,
+				DE517D0C24A53D3500BDE4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE517CE924A53D3400BDE4F1 /* Project object */;
+}
